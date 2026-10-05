@@ -1,0 +1,16 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cmpt201        1  0.0  0.1  20704 11756 pts/0    Ss   15:35   0:02 zsh --login
+cmpt201     1807  0.0  0.0  13620  6948 pts/1    Ss+  15:45   0:01 zsh --login
+cmpt201     2477  0.1  0.0   2896  1920 pts/0    S+   17:32   0:00 /home/cmpt201/.local/bin/record
+cmpt201     2478  0.1  0.2 109304 22912 pts/0    Sl+  17:32   0:00 /home/cmpt201/.local/bin/record
+cmpt201     2483  0.2  0.2 108596 22912 pts/0    Sl+  17:32   0:00 /usr/bin/python3 /usr/bin/asciinema rec --idle-time-limit=60 --stdin --quiet /tmp/.record/input.0.2026-09-27T17:32:14.311552
+cmpt201     2485  0.0  0.1  34832 15752 pts/0    S+   17:32   0:00 /usr/bin/python3 /usr/bin/asciinema rec --idle-time-limit=60 --stdin --quiet /tmp/.record/input.0.2026-09-27T17:32:14.311552
+cmpt201     2486  0.0  0.2  34984 16268 pts/0    S+   17:32   0:00 /usr/bin/python3 /usr/bin/asciinema rec --idle-time-limit=60 --stdin --quiet /tmp/.record/input.0.2026-09-27T17:32:14.311552
+cmpt201     2487  0.0  0.0   2800  1664 pts/2    Ss   17:32   0:00 sh -c /usr/bin/zsh
+cmpt201     2488  0.2  0.0  13648  7032 pts/2    S    17:32   0:00 /usr/bin/zsh
+cmpt201     2571  0.0  0.1  17208  8576 pts/2    S+   17:32   0:00 /usr/bin/nvim lab1.c
+cmpt201     2574  0.3  0.2  26236 18860 ?        Ss   17:32   0:00 /usr/bin/nvim --embed lab1.c
+cmpt201     2601  2.7  0.0  16896  7664 pts/3    Ss   17:33   0:00 zsh --login
+cmpt201     2817 47.6  0.0   2896  1920 pts/3    S+   17:33   0:00 /home/cmpt201/.local/bin/record
+cmpt201     2818 88.8  0.2 109288 23168 pts/3    S+   17:33   0:00 /home/cmpt201/.local/bin/record
+cmpt201     2821  0.0  0.0  13480  4352 pts/3    R+   17:33   0:00 ps aux
